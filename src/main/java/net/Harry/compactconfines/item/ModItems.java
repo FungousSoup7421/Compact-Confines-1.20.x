@@ -2,7 +2,7 @@ package net.Harry.compactconfines.item;
 
 import net.Harry.compactconfines.CompactConfines;
 import net.Harry.compactconfines.item.custom.FuelItem;
-import net.minecraft.world.item.Item;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -28,6 +28,17 @@ public class ModItems {
             () -> new Item(new Item.Properties().food(ModFoods.BARK)));
     public static final RegistryObject<Item> BONSAI_LOG = ITEMS.register("bonsai_log",
             () -> new FuelItem(new Item.Properties(), 200));
+
+    public static final RegistryObject<Item> SCRAPPED_SWORD = ITEMS.register("scrapped_sword",
+            () -> new SwordItem(ModToolTiers.SCRAPPED, 4, 2, new Item.Properties()));
+    public static final RegistryObject<Item> SCRAPPED_PICKAXE = ITEMS.register("scrapped_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.SCRAPPED, 1, 0, new Item.Properties()));
+    public static final RegistryObject<Item> SCRAPPED_AXE = ITEMS.register("scrapped_axe",
+            () -> new AxeItem(ModToolTiers.SCRAPPED, 5, 1, new Item.Properties()));
+    public static final RegistryObject<Item> SCRAPPED_SHOVEL = ITEMS.register("scrapped_shovel",
+            () -> new ShovelItem(ModToolTiers.SCRAPPED, 1, 0, new Item.Properties()));
+    public static final RegistryObject<Item> SCRAPPED_HOE = ITEMS.register("scrapped_hoe",
+            () -> new HoeItem(ModToolTiers.SCRAPPED, 1, 0, new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

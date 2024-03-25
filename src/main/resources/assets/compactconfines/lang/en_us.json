@@ -7,6 +7,11 @@
   "item.compactconfines.compact_dust": "Compact Dust",
   "item.compactconfines.bark": "Bark",
   "item.compactconfines.bonsai_log": "Bonsai Log",
+  "item.compactconfines.scrapped_sword": "Scrappy Sword",
+  "item.compactconfines.scrapped_pickaxe": "Scrappy Pickaxe",
+  "item.compactconfines.scrapped_axe": "Scrappy Axe",
+  "item.compactconfines.scrapped_shovel": "Scrappy Shovel",
+  "item.compactconfines.scrapped_hoe": "Scrappy Hoe",
 
   "block.compactconfines.compact_compound_block": "Compact Compound Block",
   "block.compactconfines.compact_dust_block": "Compact Dust Block",

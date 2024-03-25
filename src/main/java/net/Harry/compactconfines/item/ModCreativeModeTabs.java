@@ -27,6 +27,12 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.BARK.get());
                         pOutput.accept(ModItems.BONSAI_LOG.get());
 
+                        pOutput.accept(ModItems.SCRAPPED_SWORD.get());
+                        pOutput.accept(ModItems.SCRAPPED_PICKAXE.get());
+                        pOutput.accept(ModItems.SCRAPPED_AXE.get());
+                        pOutput.accept(ModItems.SCRAPPED_SHOVEL.get());
+                        pOutput.accept(ModItems.SCRAPPED_HOE.get());
+
                         pOutput.accept(ModBlocks.COMPACT_COMPOUND_BLOCK.get());
                         pOutput.accept(ModBlocks.COMPACT_DUST_BLOCK.get());
 

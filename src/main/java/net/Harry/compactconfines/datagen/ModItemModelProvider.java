@@ -27,6 +27,18 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         simpleItem(ModItems.BARK);
         simpleItem(ModItems.BONSAI_LOG);
+
+        handheldItem(ModItems.SCRAPPED_SWORD);
+        handheldItem(ModItems.SCRAPPED_PICKAXE);
+        handheldItem(ModItems.SCRAPPED_AXE);
+        handheldItem(ModItems.SCRAPPED_HOE);
+        handheldItem(ModItems.SCRAPPED_SHOVEL);
+    }
+
+    private ItemModelBuilder handheldItem(RegistryObject<Item> item) {
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation("item/handheld")).texture("layer0",
+                new ResourceLocation(CompactConfines.MOD_ID, "item/" + item.getId().getPath()));
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
