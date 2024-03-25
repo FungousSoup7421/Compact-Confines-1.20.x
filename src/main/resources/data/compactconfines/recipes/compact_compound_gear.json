@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " # ",
+    "#s#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "compactconfines:compact_compound"
+    },
+    "s": {
+      "item": "compactconfines:stone_gear"
+    }
+  },
+  "result": {
+    "item": "compactconfines:compact_compound_gear"
+  }
+}

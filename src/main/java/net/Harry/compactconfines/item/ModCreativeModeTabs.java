@@ -25,6 +25,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.STONE_GEAR.get());
                         pOutput.accept(ModItems.COMPACT_DUST.get());
                         pOutput.accept(ModItems.BARK.get());
+                        pOutput.accept(ModItems.BONSAI_LOG.get());
 
                         pOutput.accept(ModBlocks.COMPACT_COMPOUND_BLOCK.get());
                         pOutput.accept(ModBlocks.COMPACT_DUST_BLOCK.get());
