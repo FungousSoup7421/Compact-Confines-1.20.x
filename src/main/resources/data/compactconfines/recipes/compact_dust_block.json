@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "## ",
+    "## "
+  ],
+  "key": {
+    "#": {
+      "item": "compactconfines:compact_dust"
+    }
+  },
+  "result": {
+    "item": "compactconfines:compact_dust_block"
+  }
+}

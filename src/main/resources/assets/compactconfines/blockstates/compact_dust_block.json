@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "compactconfines:block/compact_dust_block"
+    }
+  }
+}

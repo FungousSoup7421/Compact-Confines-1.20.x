@@ -1,0 +1,17 @@
+{
+  "item.compactconfines.compact_crystal": "Compact Crystal",
+  "item.compactconfines.compact_compound": "Compact Compound",
+  "item.compactconfines.compact_compound_plate": "Compact Compound Plate",
+  "item.compactconfines.compact_compound_gear": "Compact Compound Gear",
+  "item.compactconfines.stone_gear": "Stone Gear",
+  "item.compactconfines.compact_dust": "Compact Dust",
+  "item.compactconfines.bark": "Bark",
+  "item.compactconfines.bonsai_log": "Bonsai Log",
+
+  "block.compactconfines.compact_compound_block": "Compact Compound Block",
+  "block.compactconfines.compact_dust_block": "Compact Dust Block",
+
+  "block.compactconfines.compact_lamp": "Compact Lamp",
+
+  "creativetab.compact_confines_tab": "Compact Confines"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "compactconfines:compact_compound"
+    }
+  },
+  "result": {
+    "item": "compactconfines:compact_compound_block"
+  }
+}
