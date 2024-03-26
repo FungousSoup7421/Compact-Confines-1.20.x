@@ -20,12 +20,15 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.COMPACT_COMPOUND.get());
                         pOutput.accept(ModItems.COMPACT_CRYSTAL.get());
+                        pOutput.accept(ModItems.COMPACT_DUST.get());
+
                         pOutput.accept(ModItems.COMPACT_COMPOUND_GEAR.get());
                         pOutput.accept(ModItems.COMPACT_COMPOUND_PLATE.get());
                         pOutput.accept(ModItems.STONE_GEAR.get());
-                        pOutput.accept(ModItems.COMPACT_DUST.get());
+
                         pOutput.accept(ModItems.BARK.get());
                         pOutput.accept(ModItems.BONSAI_LOG.get());
+                        pOutput.accept(ModItems.BONSAI_SEEDS.get());
 
                         pOutput.accept(ModItems.SCRAPPED_SWORD.get());
                         pOutput.accept(ModItems.SCRAPPED_PICKAXE.get());

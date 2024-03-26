@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_compact_compound": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "compactconfines:compact_compound"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "compactconfines:compact_compound_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_compact_compound",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "compactconfines:compact_compound_block"
+    ]
+  },
+  "sends_telemetry_event": false
+}

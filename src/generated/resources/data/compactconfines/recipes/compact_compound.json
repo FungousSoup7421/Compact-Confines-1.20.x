@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "compactconfines:compact_compound_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "compactconfines:compact_compound"
+  }
+}

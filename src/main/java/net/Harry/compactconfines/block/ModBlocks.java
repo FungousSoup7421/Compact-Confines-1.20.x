@@ -1,6 +1,7 @@
 package net.Harry.compactconfines.block;
 
 import net.Harry.compactconfines.CompactConfines;
+import net.Harry.compactconfines.block.custom.BonsaiCropBlock;
 import net.Harry.compactconfines.block.custom.CompactLampBlock;
 import net.Harry.compactconfines.item.ModItems;
 import net.minecraft.world.item.BlockItem;
@@ -27,6 +28,9 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> COMPACT_LAMP = registerBlock("compact_lamp",
             () -> new CompactLampBlock((BlockBehaviour.Properties.copy(Blocks.REDSTONE_LAMP))));
+
+    public static final RegistryObject<Block> BONSAI_CROP = BLOCKS.register("bonsai_crop",
+            () -> new BonsaiCropBlock((BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission())));
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

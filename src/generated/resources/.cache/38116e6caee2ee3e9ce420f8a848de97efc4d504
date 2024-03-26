@@ -1,0 +1,4 @@
+// 1.20.1	2024-03-25T19:09:37.1141268	Tags for minecraft:block mod id compactconfines
+2b1e3ba22a68cd4e1597b4d2658e6edf29299f47 data/compactconfines/tags/blocks/needs_scrapped_tool.json
+cb56f9764576c24dcd76843971d8a4e3ada040fb data/minecraft/tags/blocks/mineable/pickaxe.json
+b22e84adbdf095876e9dc55ee7b723fcfd68249c data/minecraft/tags/blocks/mineable/shovel.json

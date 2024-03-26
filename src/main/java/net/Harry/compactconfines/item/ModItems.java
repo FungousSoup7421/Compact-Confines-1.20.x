@@ -1,6 +1,7 @@
 package net.Harry.compactconfines.item;
 
 import net.Harry.compactconfines.CompactConfines;
+import net.Harry.compactconfines.block.ModBlocks;
 import net.Harry.compactconfines.item.custom.FuelItem;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -28,6 +29,8 @@ public class ModItems {
             () -> new Item(new Item.Properties().food(ModFoods.BARK)));
     public static final RegistryObject<Item> BONSAI_LOG = ITEMS.register("bonsai_log",
             () -> new FuelItem(new Item.Properties(), 200));
+    public static final RegistryObject<Item> BONSAI_SEEDS = ITEMS.register("bonsai_seeds",
+            () -> new ItemNameBlockItem(ModBlocks.BONSAI_CROP.get(), new Item.Properties()));
 
     public static final RegistryObject<Item> SCRAPPED_SWORD = ITEMS.register("scrapped_sword",
             () -> new SwordItem(ModToolTiers.SCRAPPED, 4, 2, new Item.Properties()));

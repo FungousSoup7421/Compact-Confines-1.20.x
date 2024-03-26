@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "compactconfines:block/compact_lamp_off"
+    },
+    "lit=true": {
+      "model": "compactconfines:block/compact_lamp_on"
+    }
+  }
+}

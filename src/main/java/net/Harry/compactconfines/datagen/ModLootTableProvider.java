@@ -3,7 +3,6 @@ package net.Harry.compactconfines.datagen;
 import net.Harry.compactconfines.datagen.loot.ModBlockLootTables;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.loot.LootTableProvider;
-import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.storage.loot.parameters.LootContextParamSets;
 
 import java.util.List;

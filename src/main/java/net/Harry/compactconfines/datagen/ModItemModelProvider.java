@@ -27,6 +27,7 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         simpleItem(ModItems.BARK);
         simpleItem(ModItems.BONSAI_LOG);
+        simpleItem(ModItems.BONSAI_SEEDS);
 
         handheldItem(ModItems.SCRAPPED_SWORD);
         handheldItem(ModItems.SCRAPPED_PICKAXE);
