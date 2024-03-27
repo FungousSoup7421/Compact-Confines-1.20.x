@@ -2,8 +2,12 @@ package net.Harry.compactconfines;
 
 import com.mojang.logging.LogUtils;
 import net.Harry.compactconfines.block.ModBlocks;
+import net.Harry.compactconfines.block.entity.ModBlockEntities;
 import net.Harry.compactconfines.item.ModCreativeModeTabs;
 import net.Harry.compactconfines.item.ModItems;
+import net.Harry.compactconfines.screen.AlloyerScreen;
+import net.Harry.compactconfines.screen.ModMenuTypes;
+import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -36,6 +40,9 @@ public class CompactConfines {
 
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
+
+        ModBlockEntities.register(modEventBus);
+        ModMenuTypes.register(modEventBus);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
@@ -61,7 +68,7 @@ public class CompactConfines {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-
+            MenuScreens.register(ModMenuTypes.ALLOYER_MENU.get(), AlloyerScreen::new);
         }
     }
 }

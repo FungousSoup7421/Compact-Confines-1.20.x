@@ -1,8 +1,10 @@
-// 1.20.1	2024-03-25T20:20:54.6085908	Block States: compactconfines
+// 1.20.1	2024-03-27T16:43:30.0115139	Block States: compactconfines
+4523b0ec4ca3237fdb335ab42a70dd7576c5cc6e assets/compactconfines/blockstates/alloyer.json
 6ac436eec4377e4ecb78bc5c300cfcda88f326fc assets/compactconfines/blockstates/bonsai_crop.json
 88925d26c9202754780d1c556464440f9a5e5ce0 assets/compactconfines/blockstates/compact_compound_block.json
 88ce2935ea29ce117191923f2ca7aba1c671e03a assets/compactconfines/blockstates/compact_dust_block.json
 7e790cd3bb8bdedef0f40d70a82136dad94243ee assets/compactconfines/blockstates/compact_lamp.json
+e11794010c9ac47ebd5a0bfcefa572ec85f1e366 assets/compactconfines/models/block/alloyer.json
 d82fef8800a1c069bf3d32e15ee438dab0184468 assets/compactconfines/models/block/bonsai_stage0.json
 5a3533f85fb5052d3a72f65845c71a28db596b56 assets/compactconfines/models/block/bonsai_stage1.json
 14c796e61f4c2d91effb4c65fc3657ae289e3380 assets/compactconfines/models/block/bonsai_stage2.json
@@ -13,6 +15,7 @@ d4ed551168b8b2290cc5c6ddd5f806b73084dd29 assets/compactconfines/models/block/com
 500507f81bd7c69fc1b988ae50eb5f7a06cd1d64 assets/compactconfines/models/block/compact_dust_block.json
 11333b4fcdd67671f7e2a3ecd4188745654945a4 assets/compactconfines/models/block/compact_lamp_off.json
 7bc137d7d822dd3f3d422f791c96d63c2b329e2d assets/compactconfines/models/block/compact_lamp_on.json
+5ad5e5e8b4b6c4ebbd442e8bccbc18157e20f859 assets/compactconfines/models/item/alloyer.json
 453e09d9d8a56c800984869be72c0a402d271214 assets/compactconfines/models/item/compact_compound_block.json
 c684a8e060506dff2f4988a03b16df8eb3c57807 assets/compactconfines/models/item/compact_dust_block.json
 bc7c76a00b3989990a890c5e4475ec2399e7956e assets/compactconfines/models/item/compact_lamp.json

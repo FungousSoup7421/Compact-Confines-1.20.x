@@ -1,4 +1,5 @@
-// 1.20.1	2024-03-25T20:20:54.611591	Loot Tables
+// 1.20.1	2024-03-27T16:43:30.0135128	Loot Tables
+828d28068c71ac989d960650b35d8af5aec62abc data/compactconfines/loot_tables/blocks/alloyer.json
 c2e10cca7ab14a1d1dc6cef5e70bd8b7d9ff975f data/compactconfines/loot_tables/blocks/bonsai_crop.json
 3822e4cce9c17507a5a3cae6e4893a966fc084d2 data/compactconfines/loot_tables/blocks/compact_compound_block.json
 80318e229dba38913724371be7c5cd01b6ce258d data/compactconfines/loot_tables/blocks/compact_dust_block.json

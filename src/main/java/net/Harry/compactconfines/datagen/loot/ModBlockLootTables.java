@@ -24,6 +24,8 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.COMPACT_DUST_BLOCK.get());
         this.dropSelf(ModBlocks.COMPACT_LAMP.get());
 
+        this.dropSelf(ModBlocks.ALLOYER.get());
+
         LootItemCondition.Builder lootitemcondition$builder = LootItemBlockStatePropertyCondition
                 .hasBlockStateProperties(ModBlocks.BONSAI_CROP.get())
                 .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(BonsaiCropBlock.AGE, 5));

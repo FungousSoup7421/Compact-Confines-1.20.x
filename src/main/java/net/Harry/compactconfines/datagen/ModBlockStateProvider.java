@@ -2,11 +2,11 @@ package net.Harry.compactconfines.datagen;
 
 import net.Harry.compactconfines.CompactConfines;
 import net.Harry.compactconfines.block.ModBlocks;
+import net.Harry.compactconfines.block.custom.AlloyerBlock;
 import net.Harry.compactconfines.block.custom.BonsaiCropBlock;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.CropBlock;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
@@ -27,21 +27,20 @@ public class ModBlockStateProvider extends BlockStateProvider {
     protected void registerStatesAndModels() {
         blockWithItem(ModBlocks.COMPACT_COMPOUND_BLOCK);
         blockWithItem(ModBlocks.COMPACT_DUST_BLOCK);
+        blockWithItem(ModBlocks.ALLOYER);
+
+        // axisBlock(((RotatedPillarBlock) ModBlocks.ALLOYER.get()), blockTexture(ModBlocks.ALLOYER.get()),
+                // new ResourceLocation(CompactConfines.MOD_ID, "block/alloyer_top"));
 
         VariantBlockStateBuilder lampBlockState = getVariantBuilder(ModBlocks.COMPACT_LAMP.get());
-
-        // Add the lit and unlit states
         lampBlockState.forAllStates(state -> {
             boolean lit = state.getValue(BlockStateProperties.LIT);
             String variant = lit ? "on" : "off";
             ModelFile model = models().cubeAll("compact_lamp_" + variant, modLoc("block/compact_lamp_" + variant));
             return ConfiguredModel.builder().modelFile(model).build();
         });
-
-        // Register item model for the unlit lamp block
         ModelFile unlitItemModel = models().cubeAll("compact_lamp_off", modLoc("block/compact_lamp_off"));
         simpleBlockItem(ModBlocks.COMPACT_LAMP.get(), unlitItemModel);
-
         makeBonsaiCrop((CropBlock) ModBlocks.BONSAI_CROP.get(), "bonsai_stage", "bonsai_stage");
     }
 

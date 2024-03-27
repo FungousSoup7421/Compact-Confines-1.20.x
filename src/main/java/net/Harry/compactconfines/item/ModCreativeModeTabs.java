@@ -40,6 +40,8 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.COMPACT_DUST_BLOCK.get());
 
                         pOutput.accept(ModBlocks.COMPACT_LAMP.get());
+
+                        pOutput.accept(ModBlocks.ALLOYER.get());
                     })
                     .build());
 
